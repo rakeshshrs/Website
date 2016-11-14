@@ -1,0 +1,129 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Oxygen|Poiret+One);
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	/*background:#aaf;*/
+	background: url(../images/background.jpg);
+	font-family: 'Roboto', sans-serif;
+}
+.wrapper{
+	background: rgba(0,169,103,0.3);
+}
+
+.page-wrapper{
+	background: rgba(130,182,133,0.5);
+}
+
+.menu{
+	background: rgba(73, 182, 117,0.7);
+	height:auto;
+	width: auto;
+	margin:20px auto;
+	text-align: right;
+	padding:15px 0px;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.menu a{
+	margin: 20px;
+	color:#ddd;
+}
+
+.sidebar-menu{
+	width:100%;
+	background:rgba(43, 43, 43, 0.7);
+	margin-bottom:30px;
+	padding:25px;
+	font-size:25px;
+	margin-left:-15px;
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	overflow: auto;
+	height: auto;
+}
+
+.sidebar-menu ul{
+	list-style: none;
+}
+
+.sidebar-menu ul li{
+	padding:10px;
+}
+
+.sidebar-menu a{
+	color:#eee;
+	text-decoration: none;
+}
+
+.sidebar-menu a:hover{
+	color:#0a0a0a;
+}
+
+.form-control{
+	/*margin:10px;*/
+}
+
+.date-dropdown, .login-input{
+	padding:6px;
+	margin: 5px;
+}
+
+.btn{
+	margin:10px;
+}
+
+.content{
+	/*text-align: center;*/
+	background: rgba(181,181,181,0.7);
+	padding: 10px;
+	height:auto;
+	margin-bottom: 25px;
+	overflow: auto;
+}
+
+.content h2{
+	background: rgba(130,197,156,0.7);
+	padding:10px;
+	color:#434f38;
+	font-weight: bold;
+}
+
+.add_content{
+	/*background: rgba(181,181,181,0.7);*/
+}
+
+th,td{
+	text-align: left;
+	padding-left:15px;
+}
+
+.ui-datepicker .ui-datepicker-title{
+	color:#1ec;
+}
+
+.view-info{
+	background: rgba(49, 99, 156,0.7);
+	padding:10px; 
+}
+
+.gtotal{
+
+}
+
+
+@media screen and (max-width: 992px) {
+	.add_content{
+		
+	}
+
+	.sidebar-menu{
+		margin-left: 0px;
+	}
+}
